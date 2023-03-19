@@ -3,6 +3,7 @@ import styles from './App.module.css';
 import Courses from './components/Courses'
 import PageStudy from './components/PageStudy';
 import logo from './img/logo.jpg';
+import Header from './components/Header';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         </div>
       </div>
       <div className={styles.content}>
+        <Header />
         <Routes>
           <Route path="/" element={<Courses />} />
           <Route path="/course/:id" element={<PageStudy />} />

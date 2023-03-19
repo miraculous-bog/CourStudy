@@ -27,7 +27,7 @@ const Aside = ({ lessonsData, preview, generateContent }: Props) => {
 		<div className={styles.aside}>
 			<ul className={styles.lessons}>
 				<li className={styles.item} key={preview.id}>
-					<Lesson order={preview.order} img={preview.previewImageLink} title={preview.title} duration={preview.duration} type={preview.type} status={preview.status} generateContent={generateContent} />
+					<Lesson order={preview.order} img={preview.previewImageLink + "/cover.webp"} title={preview.title} duration={preview.duration} type={preview.type} status={preview.status} generateContent={generateContent} />
 				</li>
 
 				{lessonsData.map(item => (

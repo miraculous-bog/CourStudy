@@ -23,7 +23,7 @@ const Lesson: React.FC<Props> = ({ order, img, title, duration, type, status, ge
 					src={`${img}/lesson-${order}.webp`}
 					alt="" />
 				<div className={styles.info}>
-					<p className={styles.text}>Preview</p>
+					<p className={styles.text}>{order === 0 ? 'Preview' : `Lesson ${order}`}</p>
 					<h2 className={styles.title}>
 						{title}
 					</h2>

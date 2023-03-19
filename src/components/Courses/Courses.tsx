@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Course from './Course';
-import Header from '../Header';
 import Pagination from './Pagination'
 import data from '../../common/data';
 import styles from './Courses.module.css';
@@ -66,7 +65,7 @@ const Courses: React.FC = () => {
 
 	return (
 		<>
-			<Header />
+
 			<div>
 				<ul className={styles.list}>
 					{currentPosts.map((item: CourseData) => (
