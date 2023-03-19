@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    padding: 15px;
+    padding-top: 30px;
+    vertical-align: middle;
+    border-bottom: 2px solid rgb(214, 204, 204);
+  }
+  .headertext {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+  }
+  

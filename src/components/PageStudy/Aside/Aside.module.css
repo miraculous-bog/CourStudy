@@ -1,0 +1,15 @@
+  
+  .aside {
+    top: 80px; 
+    padding: 20px;
+    width: 35%;
+    height: 90vh;
+    overflow-y: auto;
+  }
+.lessons {
+	list-style: none;
+	padding: 0;
+}
+  .item {
+	  margin-top: 20px;
+  }

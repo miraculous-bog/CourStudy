@@ -1,0 +1,12 @@
+.main{
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+
+  .net {
+    background: rgb(200, 200, 200);
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }

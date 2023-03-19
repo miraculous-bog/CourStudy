@@ -1,0 +1,39 @@
+.lesson {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35);
+	padding: 10px;
+	border-radius: 20px;
+	align-items: center;
+  }
+  .shortinfo {
+	display: flex;
+	justify-content: space-between; 
+	padding-top: 10px;
+  }
+  .img {
+	width: 30%;
+	/* height: 70px; */
+  }
+
+  .info {
+	width:65%;
+  }
+  .text{
+	font-size: 18px;
+	font-weight: 500;
+	color: #6e6e6e;
+  }
+  .title{
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #292929;
+  }
+  
+  .shortinfo .status {
+	color: green;
+  }
+  .shortinfo .locked {
+	color: rgb(170, 7, 7);
+  }
