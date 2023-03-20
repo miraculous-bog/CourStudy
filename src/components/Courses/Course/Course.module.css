@@ -71,3 +71,24 @@
     font-weight: 500;
   }
 
+  @media screen and (max-width: 568px) {
+    .block {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      margin: 10px 15px;
+      padding: 10px;
+      }
+      .img {
+        display: block;
+        width: 95%;
+      }
+      .text {
+        width: 90%;
+      }
+      .others {
+        width: 12%;
+      }
+    }

@@ -78,6 +78,7 @@ const Courses: React.FC = () => {
 									skills={item.meta.skills}
 									rating={item.rating}
 									count={item.lessonsCount}
+									video={item.meta.courseVideoPreview.link}
 								/>
 							</li>
 						</Link>

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactPlayer from 'react-player'
 
 import graphic from '../../../img/graphic.png';
 import lessons from '../../../img/lessons.png';
@@ -10,15 +11,20 @@ interface Props {
 	description: string,
 	skills: any,
 	rating: number,
-	count: number
+	count: number,
+	video: string
 }
 
-const Course = ({ img, title, description, skills, rating, count }: Props) => {
+const Course = ({ img, title, description, skills, rating, count, video }: Props) => {
+
 	return (
 		<div className={styles.block}>
+
+
 			<img className={styles.img}
 				src={img + '/cover.webp'}
 				alt="" />
+
 			<div className={styles.text}>
 				<h2>{title}</h2>
 				<p>{description}</p>

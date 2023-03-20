@@ -29,10 +29,11 @@
 
 
 .content {
-  width: 92%;
-  flex: 1 1 calc(100% - 200px);
+  width: 82%;
+  flex: 1 1 calc(100%);
   margin-left: 10%;
-  height: 130vh;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,11 +41,12 @@
     position: static;
     height: auto;
     width: 100%;
+    border: none;
   }
 
   .content {
     margin: 0;
     flex: 1 1 100%;
-    width: 100%;
+    width: 90%;
   }
 }

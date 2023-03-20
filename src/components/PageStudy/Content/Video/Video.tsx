@@ -17,7 +17,7 @@ const Video = ({ url, title }: Props) => {
 
 	return (
 		<div className={styles.wrapper}>
-			<ReactPlayer class={styles.video} controls playing loop url={url} width="100%" />
+			<ReactPlayer className={styles.video} controls playing loop url={url} width="100%" />
 			<div className={styles.controllers}>
 				<h1 className={styles.title}>{title}</h1>
 				<div>

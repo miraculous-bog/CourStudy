@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './App.module.css';
+import logo from './img/logo.jpg';
 import Courses from './components/Courses'
 import PageStudy from './components/PageStudy';
-import logo from './img/logo.jpg';
 import Header from './components/Header';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
